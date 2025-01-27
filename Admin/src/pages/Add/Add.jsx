@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css'
 
 const Add = () => {
 
-    const url = 'http://localhost:5000/api'
+    const url = 'https://tomoto-backend.onrender.com/api'
 
     const { addItem } = useContext(AdminContext)
 
