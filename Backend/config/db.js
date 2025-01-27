@@ -1,9 +1,10 @@
 import mongoose from "mongoose";
-import { configDotenv } from "dotenv";
+import dotenv from "dotenv";
+dotenv.config();
 
 const db = async () => {
   await mongoose
-    .connect(`mongodb://127.0.0.1:27017/Resturant`)
+    .connect(`${process.env.MONGO_URI}/Resturant`)
     .then(() => console.log(`Databse Connected`))
     .catch((err) => console.log(err));
 };
