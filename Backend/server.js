@@ -18,7 +18,7 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 app.use(
   cors({
-    origin: ["https://tomoto-admin.onrender.com/", "https://tomoto-frontend.onrender.com/"], // Frontend origin
+    origin: ["https://tomoto-admin.onrender.com", "https://tomoto-frontend.onrender.com"], // Frontend origin
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed methods
     credentials: true, // Allow cookies or credentials
   })
