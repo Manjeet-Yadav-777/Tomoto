@@ -18,7 +18,7 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:5174", "http://localhost:5173"], // Frontend origin
+    origin: ["https://tomoto-frontend.onrender.com", "https://tomoto-admin.onrender.com"], // Frontend origin
     credentials: true, // Allow cookies or credentials
   })
 );
