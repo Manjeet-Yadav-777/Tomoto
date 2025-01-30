@@ -5,7 +5,7 @@ import { StoreContext } from '../../context/StoreContext'
 const FoodItem = ({ id, name, price, description, image }) => {
 
     const { addToCart, removeCart, cartItems } = useContext(StoreContext);
-    const url = "http://localhost:5000"
+    const url = "https://tomoto-backend.onrender.com"
 
 
     return (

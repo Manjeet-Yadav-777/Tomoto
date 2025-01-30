@@ -9,7 +9,7 @@ const StoreContextProvider = (props) => {
     const [token, setToken] = useState("");
     const [food_list, setFoodList] = useState([]);
     const [load, setLoad] = useState(false)
-    const url = "http://localhost:5000/api";
+    const url = "https://tomoto-backend.onrender.com/api";
 
     // Initial data load
     useEffect(() => {

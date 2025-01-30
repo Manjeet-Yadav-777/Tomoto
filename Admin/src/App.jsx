@@ -9,7 +9,7 @@ import { ToastContainer } from 'react-toastify'
 
 const App = () => {
 
-  const url = "http://localhost:5000/api"
+  const url = "https://tomoto-backend.onrender.com"
 
   return (
     <div>

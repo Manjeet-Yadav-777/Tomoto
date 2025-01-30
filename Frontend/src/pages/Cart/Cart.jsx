@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 const Cart = () => {
     const { cartItems, food_list, removeItem, getTotal, removeCart } = useContext(StoreContext);
-    const url = "http://localhost:5000";
+    const url = "https://tomoto-backend.onrender.com";
     const navigate = useNavigate();
 
     if (!food_list.length) {

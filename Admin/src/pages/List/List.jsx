@@ -6,8 +6,8 @@ import { assets } from '../../../../Frontend/src/assets/frontend_assets/assets';
 
 const List = () => {
 
-    const url = 'http://localhost:5000/api'
-    const urlForImage = 'http://localhost:5000'
+    const url = 'https://tomoto-backend.onrender.com/api'
+    const urlForImage = 'https://tomoto-backend.onrender.com'
 
     const [list, setList] = useState([]);
     const [refresh, setRefresh] = useState(false);
